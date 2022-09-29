@@ -2,9 +2,11 @@
 
 ## Extra Note
 
-This is a solution (which fixes a small error in the solution shown).
+This is a solution (is also fixes a small error in the solution shown in the image below).
 
 The solution also contains a link to an annotated solution which shows where the CSS selectors that were added to the `styles.css` are active.
+
+[Show me the finished solution](https://htmlpreview.github.io/?https://github.com/shahzadnaeem/boolean-uk-html-css-selectors-fun/blob/master/index.html)
 
 ## Introduction
 
