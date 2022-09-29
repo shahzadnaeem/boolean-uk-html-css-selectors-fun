@@ -1,3 +1,5 @@
+/* There a many more styles in this file and they are used to add annotations so that you can see where the styles in the solution are applied. The annotations are added using the ::before pseudo-element -- https://developer.mozilla.org/en-US/docs/Web/CSS/::before */
+
 a {
     text-decoration: none;
     cursor: pointer;

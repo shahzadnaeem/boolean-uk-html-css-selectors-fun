@@ -1,7 +1,16 @@
 # CSS Selector Fun
-In this exercise you will test your knowledge of CSS selectors. 
 
-Open up the `index.html` file in your browser using LiveServer. Your task is to add CSS rules to `styles.css` so that each element on the page is styled in the way it describes. For example, the headings say "Make this heading pink" - you need to use CSS to make them pink. 
+## Extra Note
+
+This is a solution (which fixes a small error in the solution shown).
+
+The solution also contains a link to an annotated solution which shows where the CSS selectors that were added to the `styles.css` are active.
+
+## Introduction
+
+In this exercise you will test your knowledge of CSS selectors.
+
+Open up the `index.html` file in your browser using LiveServer. Your task is to add CSS rules to `styles.css` so that each element on the page is styled in the way it describes. For example, the headings say "Make this heading pink" - you need to use CSS to make them pink.
 
 The end result should look like this:
 
@@ -10,6 +19,7 @@ The end result should look like this:
 **You are not allowed to modify the HTML file in anyway**!
 
 ## Tips
+
 * You'll need to use a mixture of Tag, Class and ID selectors for this exercise
 * You'll also need to *combine* selectors for the elements near the bottom of the page.
 * Try to keep your CSS *minimal*. Do your best to avoid repeating the same style rules

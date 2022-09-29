@@ -1,3 +1,5 @@
+/* The following items are for the link at the top of the solution */
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -15,6 +17,8 @@ a:hover {
     color: blue;
     background-color: aliceblue;
 }
+
+/* Solution CSS starts from here */
 
 p {
     color: orange;
