@@ -1,0 +1,153 @@
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    color: navy;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border: 1px solid navy;
+    display: block;
+    width: fit-content;
+}
+
+a:hover {
+    color: blue;
+    background-color: aliceblue;
+}
+
+body > p:nth-of-type(1)::before {
+    display: block;
+    content: "👇p";
+    color: lightgray;
+    background-color: #555;
+    padding: 0 0.2rem;
+    font-size: small;
+}
+
+p {
+    color: orange;
+    font-size: 28px;
+}
+
+.paragraph::before {
+    display: block;
+    content: "👇.paragraph";
+    color: lightgray;
+    background-color: #555;
+    padding: 0 0.2rem;
+    font-size: small;
+}
+
+.paragraph {
+    color: green;
+}
+
+#paragraph::before {
+    display: block;
+    content: "👇#paragraph";
+    color: lightgray;
+    background-color: #555;
+    padding: 0 0.2rem;
+    font-size: small;
+}
+
+#paragraph {
+    color: red;
+}
+
+h1, h2, h3, h4 {
+    color: pink;
+}
+
+h1::before {
+    display: block;
+    content: "👇h1, h2, h3, h5";
+    color: lightgray;
+    background-color: #555;
+    padding: 0 0.2rem;
+    font-size: small;
+}
+
+body > div:nth-of-type(1)::before {
+    display: block;
+    content: "👇div";
+    color: lightgray;
+    background-color: #555;
+    padding: 0 0.2rem;
+    font-size: small;
+}
+
+div {
+    color: black;
+    font-size: 28px;
+}
+
+div.container-one:not(.container-two) p::before {
+    display: block;
+    content: "👇div.container-one p";
+    color: lightgray;
+    background-color: #555;
+    padding: 0 0.2rem;
+    font-size: small;
+}
+
+div.container-one p {
+    color: blue;
+    font-size: 12px;
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+}
+
+div.container-two:not(.container-one) p::before {
+    display: block;
+    content: "👇div.container-two p";
+    color: lightgray;
+    background-color: #555;
+    padding: 0 0.2rem;
+    font-size: small;
+}
+
+div.container-two p {
+    color: purple;
+    font-size: 15px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+
+div.container-two:not(.container-one) p span::before {
+    content: "div.container-two p span 👉";
+    color: lightgray;
+    background-color: #555;
+    padding: 0 0.2rem;
+    font-size: small;
+}
+
+div.container-two p span {
+    color: grey;
+    font-size: 12px;
+}
+
+div.container-one.container-two p {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.container-one.container-two::before {
+    display: block;
+    content: "👇div.container-one.container-two";
+    color: lightgray;
+    background-color: #555;
+    padding: 0 0.2rem;
+    font-size: small;
+}
+
+section::before {
+    display: block;
+    content: "👇NO extra styling";
+    color: lightgray;
+    background-color: #555;
+    padding: 0 0.2rem;
+    font-size: small;
+}
